@@ -8,6 +8,12 @@ body {
  font: 13px/20px "Times New Roman", Tahoma, Verdana, sans-serif;
  color: #404040;
  background-repeat: no-repeat;
+ text-align: center;
+ justify-content: center;
+ align-content: center;
+ align-self: center;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .logo {
@@ -69,46 +75,65 @@ input[type=text], input[type=password] {
   }
 
 .submit {
-  height: 34px;
-  font-size: 14px;
-  font-weight: bold;
-  width: 297px;
-  color: #555;
-  text-shadow: 0 1px #e3f1f1;
-  background: #B69E87;
-  border: 2px solid #B69;
-  border-radius: 5px;
-  margin-top: 30px;
-  
-  
-}
-
-.submit:active {
-  background: rgba(182, 158, 135, 0.75);
-  border-color: #B69;
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
-}
-
-.createAccount {
-  background: white;
-  border: 2px solid #B69;
+  background-color: rgba(182, 158, 135, 0.7);
+  border: 2px solid #B69E87;
   border-radius: 5px;
   color: #555;
-  margin-top: 30px;
-  width: 297px;
+  margin: 5px;
+  padding: 0 10px;
+  width: 300px;
   height: 34px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
-  text-shadow: 0 1px #B69E87;
+  font-size: 16px;
+}
+
+.createAccount {
+  background-color: white;
+  border: 2px solid #B69E87;
+  border-radius: 5px;
+  color: #555;
+  margin: 5px;
+  padding: 0 10px;
+  width: 276px;
+  height: 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
   }
 
-  .createAccount:active {
-  background: #B69E87;
-  border-color: #B69;
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+.signup-button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: darkgoldenrod;
+    padding: 5px;
+    width: 70%;
+    color: white;
+}
+
+.register{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+.h5{
+    font-size: 20px;
+    color: darkslateblue;
+}
+.smedia {
+    list-style-type: none;
+    padding: 3%;
+    margin: 25px;
+}
+
+.register1, register {
+    padding: 10px;
+    font-family: inherit;
 }
