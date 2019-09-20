@@ -24,25 +24,8 @@
           
           <div><p>Don't Have an Account?</p></div>
           <p><a href="signup.php" class="signup-button">Create Account</a>
-          <div class="register">
-						<span>
-				           OR 
-                        </span>
-                        
-                </div>       
-                 <div class="register1">
-						<span>
-				          Sign Up Using
-                        </span>
-                        
-                </div>    
-                <div class="smedia">
-                    <a href="http://www.facebook.com"><img src="facebookimg.png" width="30px" height="30px" /></a>
-                    
-                    <a href="http://www.twitter.com"><img src="twitterimg.png" width="30px" height="30px"/></a>
-                    
-                    <a href="http://www.google.com"><img src="googleimg.png" width="30px" height="30px" /></a> 
-                </div>
+          <div class="register">                        
+                </div>   
 	  </form>
 	 
 	</div>
