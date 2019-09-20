@@ -19,7 +19,6 @@
 	        <input type="checkbox" name="remember_me" id="remember_me">
 	        Keep Me Logged In
 	      </label><br>
-	      <a href="#">Forgot Password?</a>.
 	    <input class="submit" type="submit" name="login-user" value="Login">
           
           <div><p>Don't Have an Account?</p></div>
